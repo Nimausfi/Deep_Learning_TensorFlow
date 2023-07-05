@@ -1,5 +1,5 @@
 
-# **Convolutional Neural Network (CNN) with Tensorflow**
+# **Deep Learning with TensorFlow**
 
 
 ### **Summary**
@@ -9,14 +9,13 @@ Summary about the entire project (detaset + preprocessing + transfer learning an
 ### **Dataset**
 Dataset can be accessed and downloaded from Kaggle: [Fruits and Vegetables Image Recognition Dataset](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
 
-This dataset contains images of Fruits and Vegetables:
+This dataset contains images of fruits and vegetables, and divided into three folders: train (100 images each), test (10 images each), and validation (10 images each).
 
 **Fruits:** banana, apple, pear, grapes, orange, kiwi, watermelon, pomegranate, pineapple, mango.
 
 **Vegetables:** cucumber, carrot, capsicum, onion, potato, lemon, tomato, raddish, beetroot, cabbage, lettuce, spinach, soy bean, cauliflower, bell pepper, chilli pepper, turnip, corn, sweetcorn, sweet potato, paprika, jalepeño, ginger, garlic, peas, eggplant.
 
 ++ Create a folder and move images to it (dataset-cover.jpg)
-
 
 ### **Models**
 
@@ -42,8 +41,8 @@ This dataset contains images of Fruits and Vegetables:
 
 Learning curves => Training and Validation Loss
 
+++ Add learning_curves.jpg
 
-### **Links**
+++ Create a table to compare the accuarcy results of models
 
-
-
+++ Add custom_imgs
