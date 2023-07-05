@@ -24,23 +24,19 @@ This dataset contains images of Fruits and Vegetables:
 
 **Fine-Tuning:** To fine-tune the base models, first set its trainable attribute to "True" (unfreezing all of the frozen). Then, since there is a relatively small training dataset, re-freeze every layer except for the last 5 (making them trainable).
 
-++ Add name of models and link to their source codes
+<br />
+<br />
 
-| Model            |                                      Links                          |
-| ----------------- | ------------------------------------------------------------------ |
-| EfficientNetB0_Model | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-| EfficientNetB4_Model | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-| EfficientNetV2B0_Model | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-| ResNet50_Model | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-| ResNet101_Model | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-| ResNet101V2_Model | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+| EfficientNet Models   | ResNet Models     |
+| :--:                  | :--:              |
+| [EfficientNetB0](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/EfficientNetB0_Model.ipynb)        | [ResNet50](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/ResNet50_Model.ipynb)          |
+| [EfficientNetB4](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/EfficientNetB4_Model.ipynb)        | [ResNet101](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/ResNet101_Model.ipynb)         |
+| [EfficientNetV2B0](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/EfficientNetV2B0_Model.ipynb)      | [ResNet101V2](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/ResNet101V2_Model.ipynb)       |
 
 
-[<kbd> <br> KeyBinding Button <br> </kbd>][KBD]
+<br />
+<br />
 
-[![Button Shield]][Shield]
-
-[Button Shield]: https://img.shields.io/badge/Shield_Buttons-37a779?style=for-the-badge
 
 ### **Performance Evaluation**
 
