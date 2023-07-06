@@ -24,7 +24,7 @@ This dataset contains images of fruits and vegetables, and divided into three fo
 
 <br />
 
-| EfficientNet Models   | ResNet Models     |
+| **EfficientNet Models**   | **ResNet Models**     |
 | :--:                  | :--:              |
 | [EfficientNetB0](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/EfficientNetB0_Model.ipynb)        | [ResNet50](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/ResNet50_Model.ipynb)          |
 | [EfficientNetB4](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/EfficientNetB4_Model.ipynb)        | [ResNet101](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/ResNet101_Model.ipynb)         |
@@ -41,6 +41,17 @@ This dataset contains images of fruits and vegetables, and divided into three fo
 **Comparing the accuarcy scores of base and fine-tuned models on the whole test dataset**
 
 ++ Create a table to compare the accuarcy results
+
+
+|  **Models**            |   **Accuracy (base models)**  |  **Accuracy (fine-tuned models)**    |
+| :--:                   | :--:                          | :--:                                 |
+|  **EfficientNetB0**    |     0.89972144                |    0.93314760                        |
+|  **EfficientNetB4**    |     0.88579386                |    0.91643452                        |
+|  **EfficientNetV2B0**  |     0.89136493                |    0.93036210                        |
+|  **ResNet50**          |     0.91922003                |    0.90529245                        |
+|  **ResNet101**         |     0.89693593                |    0.92200559                        |
+|  **ResNet101V2**       |     0.90529245                |    0.91086351                        |
+
 
 **Visualizing predictions on custom images**
 
