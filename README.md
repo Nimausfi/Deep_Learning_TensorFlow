@@ -1,10 +1,6 @@
 
 # **Deep Learning with TensorFlow**
 
-Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task.
-
-It is a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks given the vast compute and time resources required to develop neural network models on these problems and from the huge jumps in skill that they provide on related problems.
-
 ### **Dataset**
 Dataset can be accessed and downloaded from Kaggle: [Fruits and Vegetables Image Recognition Dataset](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
 
@@ -17,6 +13,8 @@ This dataset contains images of fruits and vegetables, and divided into three fo
 ++ Create a folder and move images to it (dataset-cover.jpg)
 
 ### **Models**
+
+Transfer learning is a technique in machine learning where a model developed for a task is utilized as the initial point for a model on another task. This method is particularly favored in deep learning where pre-trained models are leveraged to tackle computer vision and natural language processing tasks considering the extensive compute and time resources required to create neural network models for such problems. Transfer learning offers efficient and effective solutions by utilizing the significant performance gains achieved in similar domains.
 
 **Transfer Learning:** All pre-trained models were implemented from [TensorFlow Hub](https://www.tensorflow.org/hub) as a starting point, moreover, fine-tuning employed to further training the pre-trained models by updating its weights.
 
@@ -34,6 +32,8 @@ This dataset contains images of fruits and vegetables, and divided into three fo
 
 ### **Performance Evaluation**
 
+Results for evaluating predictions such as confusion matrix, f1 score for each class, and finding most wrong predictions can be found in the source codes.
+
 **Learning curves for training and validation metrics** (fine-tuned EfficientNetB0 model)
 
 ++ Add learning_curves.jpg
@@ -45,10 +45,10 @@ This dataset contains images of fruits and vegetables, and divided into three fo
 
 |  **Models**            |   **Accuracy (base models)**  |  **Accuracy (fine-tuned models)**    |
 | :--:                   | :--:                          | :--:                                 |
-|  **EfficientNetB0**    |     0.89972144                |    0.93314760                        |
+|  **EfficientNetB0**    |     0.89972144                |    **0.93314760**                    |
 |  **EfficientNetB4**    |     0.88579386                |    0.91643452                        |
 |  **EfficientNetV2B0**  |     0.89136493                |    0.93036210                        |
-|  **ResNet50**          |     0.91922003                |    0.90529245                        |
+|  **ResNet50**          |     **0.91922003**            |    0.90529245                        |
 |  **ResNet101**         |     0.89693593                |    0.92200559                        |
 |  **ResNet101V2**       |     0.90529245                |    0.91086351                        |
 
@@ -57,4 +57,3 @@ This dataset contains images of fruits and vegetables, and divided into three fo
 
 ++ Add custom_imgs
 
-More results for evaluating predictions such as confusion matrix, f1-score for each class, and finding most wrong predictions are in the source codes.
