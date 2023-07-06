@@ -5,6 +5,7 @@
 ### **Summary**
 Summary about the entire project (detaset + preprocessing + transfer learning and fine-tuning + models + feature extraction + callbacks (OPTIONAL) + test and evaluate).
 
++ confusion matrix + F-1 scores for each classes
 
 ### **Dataset**
 Dataset can be accessed and downloaded from Kaggle: [Fruits and Vegetables Image Recognition Dataset](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
@@ -39,10 +40,14 @@ This dataset contains images of fruits and vegetables, and divided into three fo
 
 ### **Performance Evaluation**
 
-Learning curves => Training and Validation Loss
+Learning curves for training and validation metrics (fine-tuned EfficientNetB0 model)
 
 ++ Add learning_curves.jpg
 
-++ Create a table to compare the accuarcy results of models
+Comparing the accuarcy scores of base and fine-tuned models on the whole test dataset
+
+++ Create a table to compare the accuarcy results
+
+Visualizing predictions on custom images
 
 ++ Add custom_imgs
