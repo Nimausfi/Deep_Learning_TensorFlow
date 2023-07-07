@@ -12,6 +12,8 @@ This dataset contains images of fruits and vegetables, and divided into three fo
 
 ++ Create a folder and move images to it (dataset-cover.jpg)
 
+<img src="readme_images/dataset_cover.jpg" width=800>
+
 ### **Models**
 
 Transfer learning is a technique in machine learning where a model developed for a task is utilized as the initial point for a model on another task. This method is particularly favored in deep learning where pre-trained models are leveraged to tackle computer vision and natural language processing tasks considering the extensive compute and time resources required to create neural network models for such problems. Transfer learning offers efficient and effective solutions by utilizing the significant performance gains achieved in similar domains.
@@ -36,12 +38,10 @@ Results for evaluating predictions such as confusion matrix, f1 score for each c
 
 **Learning curves for training and validation metrics** (fine-tuned EfficientNetB0 model)
 
-++ Add learning_curves.jpg
+<img src="readme_images/learning_curves.jpg" width=800>
+
 
 **Comparing the accuarcy scores of base and fine-tuned models on the whole test dataset**
-
-++ Create a table to compare the accuarcy results
-
 
 |  **Models**            |   **Accuracy (base models)**  |  **Accuracy (fine-tuned models)**    |
 | :--:                   | :--:                          | :--:                                 |
@@ -52,8 +52,8 @@ Results for evaluating predictions such as confusion matrix, f1 score for each c
 |  **ResNet101**         |     0.89693593                |    0.92200559                        |
 |  **ResNet101V2**       |     0.90529245                |    0.91086351                        |
 
-
 **Visualizing predictions on custom images**
 
-++ Add custom_imgs
+<img src="readme_images/custom_imgs.jpg" width=800>
+
 
