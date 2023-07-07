@@ -1,7 +1,6 @@
-
 # **Deep Learning with TensorFlow**
 
-### **Dataset**
+## **Dataset**
 Dataset can be accessed and downloaded from Kaggle: [Fruits and Vegetables Image Recognition Dataset](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
 
 This dataset contains images of fruits and vegetables, and divided into three folders: train (100 images each), test (10 images each), and validation (10 images each).
@@ -10,11 +9,10 @@ This dataset contains images of fruits and vegetables, and divided into three fo
 
 **Vegetables:** cucumber, carrot, capsicum, onion, potato, lemon, tomato, raddish, beetroot, cabbage, lettuce, spinach, soy bean, cauliflower, bell pepper, chilli pepper, turnip, corn, sweetcorn, sweet potato, paprika, jalepeño, ginger, garlic, peas, eggplant.
 
-++ Create a folder and move images to it (dataset-cover.jpg)
+<p align="center"> 
+<img src="readme_images/dataset_cover.jpg" width=1100>
 
-<img src="readme_images/dataset_cover.jpg" width=800>
-
-### **Models**
+## **Models**
 
 Transfer learning is a technique in machine learning where a model developed for a task is utilized as the initial point for a model on another task. This method is particularly favored in deep learning where pre-trained models are leveraged to tackle computer vision and natural language processing tasks considering the extensive compute and time resources required to create neural network models for such problems. Transfer learning offers efficient and effective solutions by utilizing the significant performance gains achieved in similar domains.
 
@@ -30,15 +28,15 @@ Transfer learning is a technique in machine learning where a model developed for
 | [EfficientNetB4](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/EfficientNetB4_Model.ipynb)        | [ResNet101](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/ResNet101_Model.ipynb)         |
 | [EfficientNetV2B0](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/EfficientNetV2B0_Model.ipynb)      | [ResNet101V2](https://github.com/Nimausfi/CNN_TensorFlow/blob/main/ResNet101V2_Model.ipynb)       |
 
-<br />
 
-### **Performance Evaluation**
+## **Performance Evaluation**
 
 Results for evaluating predictions such as confusion matrix, f1 score for each class, and finding most wrong predictions can be found in the source codes.
 
+
 **Learning curves for training and validation metrics** (fine-tuned EfficientNetB0 model)
 
-<img src="readme_images/learning_curves.jpg" width=800>
+<img src="readme_images/learning_curves.jpg" width=400>
 
 
 **Comparing the accuarcy scores of base and fine-tuned models on the whole test dataset**
@@ -52,8 +50,9 @@ Results for evaluating predictions such as confusion matrix, f1 score for each c
 |  **ResNet101**         |     0.89693593                |    0.92200559                        |
 |  **ResNet101V2**       |     0.90529245                |    0.91086351                        |
 
+
 **Visualizing predictions on custom images**
 
-<img src="readme_images/custom_imgs.jpg" width=800>
+<img src="readme_images/custom_imgs.jpg" width=600>
 
 
