@@ -1,7 +1,7 @@
-# **Deep Learning with TensorFlow**
+# **Deep Convolutional Neural Networks for Image Classification using Transfer Learning**
 
 ## **Dataset**
-Dataset can be accessed and downloaded from Kaggle: [Fruits and Vegetables Image Recognition Dataset](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
+Dataset can be accessed and downloaded from Kaggle platform: [Fruits and Vegetables Image Recognition Dataset](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
 
 This dataset contains images of fruits and vegetables, and divided into three folders: train (100 images each), test (10 images each), and validation (10 images each).
 
@@ -16,7 +16,7 @@ This dataset contains images of fruits and vegetables, and divided into three fo
 
 Transfer learning is a technique in machine learning where a model developed for a task is utilized as the initial point for a model on another task. This method is particularly favored in deep learning where pre-trained models are leveraged to tackle computer vision and natural language processing tasks considering the extensive compute and time resources required to create neural network models for such problems. Transfer learning offers efficient and effective solutions by utilizing the significant performance gains achieved in similar domains.
 
-**Transfer Learning:** All pre-trained models were implemented from [TensorFlow Hub](https://www.tensorflow.org/hub) as a starting point, moreover, fine-tuning employed to further training the models by updating their weights.
+**Transfer Learning:** All pre-trained models were implemented from [TensorFlow Hub](https://www.tensorflow.org/hub) as a starting point, moreover, fine-tuning was employed to further training the models by updating their weights.
 
 **Fine-Tuning:** To fine-tune the base models, first set its trainable attribute to "True" (unfreezing all of the frozen). Then, since there is a relatively small training dataset, re-freeze every layer except for the last 5 (making them trainable). Check the following link to learn more about the [trainable attributes.](https://keras.io/guides/transfer_learning/)
 
@@ -39,7 +39,7 @@ Results for evaluating predictions such as confusion matrix, f1 score for each c
 <img src="readme_images/learning_curves.jpg" width=400>
 
 
-**Comparing the accuarcy scores of base and fine-tuned models on the whole test dataset**
+**Comparing the accuracy scores of base and fine-tuned models on the whole test dataset**
 
 |  **Models**            |   **Accuracy (base models)**  |  **Accuracy (fine-tuned models)**    |
 | :--:                   | :--:                          | :--:                                 |
