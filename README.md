@@ -43,12 +43,12 @@ Results for evaluating predictions such as confusion matrix, f1 score for each c
 
 |  **Models**            |   **Accuracy (base models)**  |  **Accuracy (fine-tuned models)**    |
 | :--:                   | :--:                          | :--:                                 |
-|  **EfficientNetB0**    |     0.89972144                |    **0.93314760**                    |
-|  **EfficientNetB4**    |     0.88579386                |    0.91643452                        |
-|  **EfficientNetV2B0**  |     0.89136493                |    0.93036210                        |
-|  **ResNet50**          |     **0.91922003**            |    0.90529245                        |
-|  **ResNet101**         |     0.89693593                |    0.92200559                        |
-|  **ResNet101V2**       |     0.90529245                |    0.91086351                        |
+|  **EfficientNetB0**    |     89.97% 	                 |     **93.31%**                       |
+|  **EfficientNetB4**    |     88.57% 	                 |     91.64%                           |
+|  **EfficientNetV2B0**  |     89.13% 	                 |     93.03%                           |
+|  **ResNet50**          |     **91.92%**                |     90.52%                           |
+|  **ResNet101**         |     89.69% 	                 |     92.20%                           |
+|  **ResNet101V2**       |     90.52%     		 |     91.08%  	                        |
 
 
 **Visualizing predictions on custom images**
